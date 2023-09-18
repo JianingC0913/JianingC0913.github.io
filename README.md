@@ -14,6 +14,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-Welcome to my personal website!
+Welcome to my Github!
 <br>
-🤗Feel free to explore at https://jianingc0913.github.io/JianingC0913/!
+🤗Feel free to explore my personal website at https://jianingc0913.github.io/JianingC0913/!
