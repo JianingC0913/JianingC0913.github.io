@@ -1,0 +1,115 @@
+nav {
+    background-color: white;
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9999;
+    position: relative;
+}
+
+li {
+    display: inline-block;
+    color: black;
+}
+
+.nav_bar_box {
+    padding: 16px;
+    position: relative;
+    font-size: 18px;
+    line-height: 24px;
+    text-size-adjust: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    border-bottom-color: rgb(229, 114, 0);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.nav_content_box {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.nav_name {
+    font-size: 18px;
+    font-weight: 700;
+    padding-right: 120px;
+    padding-left: 40px;
+    padding-top: 0px;
+    text-align: left;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    margin: 0px;
+    line-height: 24px;
+    list-style-position: outside;
+    text-size-adjust: 100%;
+    display: inline-block;
+}
+
+.name_text {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-right: 16px;
+}
+
+.nav_ele {
+    font-size: 18px;
+    padding-right: 32px;
+    padding-left: 0px;
+    padding-top: 0px;
+    text-align: left;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    margin: 0px;
+    line-height: 24px;
+    list-style-position: outside;
+    text-size-adjust: 100%;
+    display: inline-block;
+}
+
+/*----------------------------------------------------------------------*/
+.main {
+    margin-top: 32px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: block;
+    max-width: 925px;
+}
+
+.side_bar {
+    clear: both;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-size: 16px;
+    float: left;
+    margin-bottom: 18px;
+    margin-right: 14px;
+    width: 300px;
+}
+
+.photo_box {
+    vertical-align: top;
+}
+
+.photo {
+    width: 200px;
+    border-color: rgb(229, 114, 0);
+    border-radius: 50%;
+    border-style: solid;
+    border-image-repeat: stretch;
+    border-image-outset: 0;
+    padding: 5px;
+}
+
+.author_content_box {
+    vertical-align: top;
+}
+
+.url_ul {
+    padding: 0px;
+}
+
+.text {
+    color: black;
+    text-decoration-line: none;
+}
