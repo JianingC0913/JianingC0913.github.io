@@ -15,3 +15,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 Welcome to my personal website!
+🤗Feel free to explore at https://jianingc0913.github.io/JianingC0913/!
