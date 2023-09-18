@@ -13,6 +13,10 @@ li {
     color: black;
 }
 
+a {
+    color: #52adc8;
+}
+
 .nav_bar_box {
     padding: 16px;
     position: relative;
@@ -24,13 +28,13 @@ li {
     margin-top: 10px;
     border-bottom-color: rgb(229, 114, 0);
     border-bottom-style: solid;
-    border-bottom-width: 1px;
+    border-bottom-width: 2px;
+
 }
 
 .nav_content_box {
     padding: 0px;
     margin: 0px;
-
 }
 
 .nav_name {
@@ -46,12 +50,14 @@ li {
     list-style-position: outside;
     text-size-adjust: 100%;
     display: inline-block;
+    color: gray;
 }
 
 .name_text {
     padding-top: 8px;
     padding-bottom: 8px;
     margin-right: 16px;
+    color: gray;
 }
 
 .nav_ele {
@@ -75,6 +81,7 @@ li {
     padding-right: 100px;
     display: block;
     max-width: 925px;
+    height: auto;
 }
 
 .side_bar {
@@ -84,7 +91,9 @@ li {
     float: left;
     margin-bottom: 18px;
     margin-right: 14px;
-    width: 300px;
+    width: 20%;
+    box-sizing: border-box;
+    position: sticky;
 }
 
 .photo_box {
@@ -92,10 +101,11 @@ li {
 }
 
 .photo {
-    width: 200px;
+    width: 150px;
     border-color: rgb(229, 114, 0);
     border-radius: 50%;
     border-style: solid;
+    border-width: 2px;
     border-image-repeat: stretch;
     border-image-outset: 0;
     padding: 5px;
@@ -109,7 +119,54 @@ li {
     padding: 0px;
 }
 
-.text {
+.url_text {
     color: black;
     text-decoration-line: none;
+}
+
+.author_url_box {
+    width: 150px;
+
+}
+
+.intro {
+    float: right;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-size: 18px;
+    width: 72%;
+    display: block;
+    margin-left: 10px;
+    box-sizing: border-box;
+    text-size-adjust: 100%;
+}
+
+.intro_content {
+    font-size: 18px;
+    float: left;
+}
+
+
+.footer {
+    border-top-color: rgb(189, 193, 196);
+    background-color: rgb(242, 243, 243);
+    position: absolute;
+    bottom: 0em;
+    width: 100%;
+    clear: both;
+    height: 100px;
+}
+
+.footer footer {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    max-width: 100%;
+    padding: 0 1em 2em;
+}
+
+.page__footer-copyright {
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-size: .6875em;
+    color: #9ba1a6;
 }
