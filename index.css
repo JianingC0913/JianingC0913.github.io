@@ -80,11 +80,13 @@ a {
     padding-left: 100px;
     padding-right: 100px;
     display: block;
-    max-width: 925px;
+    max-width: 1000px;
     height: auto;
 }
 
 .side_bar {
+    z-index: 100;
+    top: 2em;
     clear: both;
     font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     font-size: 16px;
@@ -133,7 +135,7 @@ a {
     float: right;
     font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     font-size: 18px;
-    width: 72%;
+    width: 73%;
     display: block;
     margin-left: 10px;
     box-sizing: border-box;
@@ -169,4 +171,36 @@ a {
     font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     font-size: .6875em;
     color: #9ba1a6;
+}
+
+.research_type {
+    border-bottom-color: rgb(229, 114, 0);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    color: #494e52;
+    font-weight: 500;
+    font-size: 130%;
+    padding: 1%;
+}
+
+.research_block {
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    margin-left: 15px;
+    width: 700px;
+}
+
+
+.research_title {
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    color: #494e52;
+    margin-bottom: 0%;
+}
+
+.research_description {
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    line-height: 27px;
+    color: rgb(73, 78, 82);
 }
