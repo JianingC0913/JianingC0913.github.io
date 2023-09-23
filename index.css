@@ -203,3 +203,16 @@ a {
     line-height: 27px;
     color: rgb(73, 78, 82);
 }
+
+/*.text_image_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    width: 800px;
+}*/
+
+.text_image_container {
+    position: relative;
+    width: 800px;
+}
