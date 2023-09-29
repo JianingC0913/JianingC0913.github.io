@@ -61,6 +61,7 @@ a {
 }
 
 .nav_ele {
+    position: relative;
     font-size: 18px;
     padding-right: 32px;
     padding-left: 0px;
@@ -73,6 +74,10 @@ a {
     text-size-adjust: 100%;
     display: inline-block;
 }
+
+
+
+
 
 /*----------------------------------------------------------------------*/
 .main {
@@ -122,9 +127,29 @@ a {
 }
 
 .url_text {
+    position: relative;
     color: black;
     text-decoration-line: none;
 }
+
+.url_text::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: rgb(227, 178, 129);
+    bottom: -3px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.3s ease-out;
+    display: block;
+}
+
+/* Animation on hover */
+.url_text:hover::after {
+    width: 100%;
+}
+
 
 .author_url_box {
     width: 150px;
